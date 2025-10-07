@@ -7,28 +7,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- TradingView Ticker Tape Widget -->
-  <div class="tradingview-widget-container">
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
     {
-      "symbols": [
-        {"proName": "NSE:INFY", "title": "INFY"},
-        {"proName": "NSE:TCS", "title": "TCS"},
-        {"proName": "NSE:ICICIBANK", "title": "ICICIBANK"},
-        {"proName": "NSE:KOTAKBANK", "title": "KOTAKBANK"},
-        {"proName": "NSE:HINDUNILVR", "title": "HINDUNILVR"},
-        {"proName": "NSE:ITC", "title": "ITC"},
-        {"proName": "NSE:BAJFINANCE", "title": "BAJFINANCE"},
-        {"proName": "NSE:RELIANCE", "title": "RELIANCE"},
-        {"proName": "NSE:HDFCBANK", "title": "HDFCBANK"}
-      ],
-      "colorTheme": "light",
-      "isTransparent": false,
-      "displayMode": "adaptive",
-      "locale": "en"
+      "description": "",
+      "proName": "BSE:RELIANCE"
+    },
+    {
+      "description": "",
+      "proName": "BSE:HDFCBANK"
+    },
+    {
+      "description": "",
+      "proName": "BSE:INFY"
+    },
+    {
+      "description": "",
+      "proName": "BSE:TCS"
+    },
+    {
+      "description": "",
+      "proName": "BSE:ICICIBANK"
+    },
+    {
+      "description": "",
+      "proName": "BSE:KOTAKBANK"
+    },
+    {
+      "description": "",
+      "proName": "BSE:HINDUNILVR"
+    },
+    {
+      "description": "",
+      "proName": "BSE:ITC"
+    },
+    {
+      "description": "",
+      "proName": "BSE:BAJFINANCE"
     }
-    </script>
-  </div>
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 
   <header>
     <nav class="navbar">
