@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market GM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- TradingView Ticker Tape Widget -->
+  <div class="tradingview-widget-container">
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+      "symbols": [
+        {"proName": "NSE:INFY", "title": "INFY"},
+        {"proName": "NSE:TCS", "title": "TCS"},
+        {"proName": "NSE:ICICIBANK", "title": "ICICIBANK"},
+        {"proName": "NSE:KOTAKBANK", "title": "KOTAKBANK"},
+        {"proName": "NSE:HINDUNILVR", "title": "HINDUNILVR"},
+        {"proName": "NSE:ITC", "title": "ITC"},
+        {"proName": "NSE:BAJFINANCE", "title": "BAJFINANCE"},
+        {"proName": "NSE:RELIANCE", "title": "RELIANCE"},
+        {"proName": "NSE:HDFCBANK", "title": "HDFCBANK"}
+      ],
+      "colorTheme": "light",
+      "isTransparent": false,
+      "displayMode": "adaptive",
+      "locale": "en"
+    }
+    </script>
+  </div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">MARKET GM</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Indian Stocks</a></li>
+        <li><a href="#">Forex</a></li>
+        <li><a href="#">To Learn</a></li>
+        <li><a href="#">Tax Filing</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <div class="maintenance-message">
+  <h2>We’re Currently Updating Our Website</h2>
+  <p>Our site is undergoing scheduled maintenance to improve your experience. We’ll be back online shortly. You can contact us by filling the details below!</p>
+</div>
+
+    <section id="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to join in our Technical Analysis course? Send me a message!</p>
+    <form action="https://formsubmit.co/ganesh920817@email.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+  <footer>
+    <p>© 2025 Market GM. All rights reserved.</p>
+  </footer>
+</body>
+</html>
